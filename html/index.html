@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Videojuegos</title>
 </head>
+
 <body>
-    
+    <header>
+        <div>VIDEOJUEGOS</div>
+        <nav>
+            <ul>
+                <li><a href="#juegos">Juegos</a></li>
+                <li><a href="#consoles">Consolas</a></li>
+                <li><a href="#comments">Comentarios</a></li>
+                <li><a href="#about">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="juegos">
+            <h2>Juegos</h2>
+            <article>
+                <h3>Juego 1</h3>
+                <p>Contenido del Juego 1.</p>
+                <a href="#">Leer mas...</a>
+            </article>
+            <article>
+                <h3>Juego 2</h3>
+                <p>Contenido del Juego 2.</p>
+                <a href="#">Leer mas...</a>
+            </article>
+            <article>
+                <h3>Juego 3</h3>
+                <p>Contenido del Juego 3.</p>
+                <a href="#">Leer mas...</a>
+            </article>
+            <article>
+                <h3>Juego 4</h3>
+                <p>Contenido del Juego 4.</p>
+                <a href="#">Leer mas...</a>
+            </article>
+        </section>
+
+        <section id="consoles">
+            <h2>Consolas</h2>
+            <div class="console">
+                <h3>PlayStation 5</h3>
+                <img src="../img/ps5.jpg" alt="PlayStation 5">
+                <p>Con Xbox Series X, se incluyen una consola Xbox Series X, un control, un cable HDMI de ultra alta
+                    velocidad y un cable
+                    de alimentación. Puedes agregar compras independientes de Xbox Game Pass y las tarjetas de expansión
+                    de almacenamiento
+                    para Xbox Series X|S para disfrutar de una experiencia completa.</p>
+            </div>
+            <div class="console">
+                <h3>Xbox Series X</h3>
+                <img src="../img/xbox.jpg" alt="Xbox Series X">
+                <p>La PlayStation 5 (PS5) es una consola de videojuegos de sobremesa desarrollada por Sony Interactive
+                    Entertainment.
+                    Cuenta con una SSD de alta velocidad, una CPU y GPU personalizadas, y una tecnología de audio 3D.
+                </p>
+            </div>
+        </section>
+        <section id="comments">
+            <h2>Comentarios</h2>
+            <div class="comment">
+                <p><strong>Usuario1:</strong> Este sitio es increíble, ¡me encanta!</p>
+            </div>
+            <div class="comment">
+                <p><strong>Usuario2:</strong> ¿Podrían agregar más juegos clásicos?</p>
+            </div>
+            <form>
+                <label for="user-comment">Deja tu comentario:</label>
+                <textarea id="user-comment" rows="4" placeholder="Escribe aquí..."></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="about">
+        <p>Todos los derechos reservados &copy; 2021</p>
+        <p>Contacto: <a href="mailto:q7E1d@example.com">contacto@Videojuegos.com</a></p>
+    </footer>
 </body>
+
 </html>
